@@ -9,14 +9,7 @@ nav {
 	background: #808080;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
+
 
 h1 {
 	color: rgb(2, 132, 130);
@@ -56,23 +49,35 @@ h2 {
 	
 }
 
-span {
+#heart {
 	color: #ff0000;
 }
 
-img {
+#logo {
 	border-radius: 30px;
-	margin-bottom: -20px;
-	
+	margin-bottom: -8px;	
+}
+
+span {
+	color: #88bb00;
 }
 
 footer {
 	clear: both;
 	background: #808080;
+	height: 30px;
+	
 }
 
 
-
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
 
 
 
